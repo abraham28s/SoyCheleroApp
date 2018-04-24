@@ -12,10 +12,25 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        //Checamos si el usuario esta loggeado
+        let newViewController:UIViewController
+        let loggeado = UserDefaults.standard.bool(forKey: "isLogged")
+        if(loggeado){
+            //TRUE -> lo mandamos a tabBarController
+            newViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SBPrincipal") as UIViewController
+        }else{
+            //False -> Lo mandamos a login
+            newViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SBLogin") as UIViewController
+        }
+        
+        window?.rootViewController = newViewController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

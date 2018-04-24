@@ -7,14 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3092CC3205727EA0008B0B1 /* ViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3092CC2205727EA0008B0B1 /* ViewControllerLogin.swift */; };
+		D3092CC520572B570008B0B1 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3092CC420572B570008B0B1 /* Globals.swift */; };
+		D3092CC72059E1B20008B0B1 /* TabBarControllerPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3092CC62059E1B20008B0B1 /* TabBarControllerPrincipal.swift */; };
+		D3092CC92059E4B50008B0B1 /* ViewControllerCuenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3092CC82059E4B50008B0B1 /* ViewControllerCuenta.swift */; };
+		D320001220754B9B00701E6A /* ViewControllerArmaTuPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320001120754B9B00701E6A /* ViewControllerArmaTuPlan.swift */; };
+		D320001420758DB500701E6A /* ViewControllerDatosEnvio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320001320758DB500701E6A /* ViewControllerDatosEnvio.swift */; };
+		D320001620758DDE00701E6A /* ViewControllerDAtosFacturacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320001520758DDE00701E6A /* ViewControllerDAtosFacturacion.swift */; };
+		D320001820758E0100701E6A /* ViewControllerDatosPago.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320001720758E0100701E6A /* ViewControllerDatosPago.swift */; };
+		D382A7492072E7FA00C1DD36 /* ViewControllerRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382A7482072E7FA00C1DD36 /* ViewControllerRegistro.swift */; };
+		D382A74B2072E80E00C1DD36 /* ViewControllerPrivacidad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382A74A2072E80E00C1DD36 /* ViewControllerPrivacidad.swift */; };
+		D3ABE2682086A7E7004D7A28 /* TextFieldFancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ABE2672086A7E7004D7A28 /* TextFieldFancy.swift */; };
+		D3ABE26B2086D416004D7A28 /* TableViewCellChelas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ABE2692086D416004D7A28 /* TableViewCellChelas.swift */; };
+		D3ABE26C2086D416004D7A28 /* TableViewCellChelas.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3ABE26A2086D416004D7A28 /* TableViewCellChelas.xib */; };
+		D3ABE26E20878CCE004D7A28 /* ViewControllerForScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ABE26D20878CCE004D7A28 /* ViewControllerForScanner.swift */; };
+		D3ABE2702087BBFD004D7A28 /* ViewControllerMiColeccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ABE26F2087BBFD004D7A28 /* ViewControllerMiColeccion.swift */; };
+		D3ABE27220881AB5004D7A28 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ABE27120881AB5004D7A28 /* iOSDevCenters+GIF.swift */; };
+		D3ABE27420893FFF004D7A28 /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = D3ABE27320893FFE004D7A28 /* loader.gif */; };
+		D3E39E34208F99AD0091B3F6 /* ViewControllerForChela.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E39E33208F99AD0091B3F6 /* ViewControllerForChela.swift */; };
 		D3F94BA41FD9F3F10083486B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F94BA31FD9F3F10083486B /* AppDelegate.swift */; };
 		D3F94BA61FD9F3F10083486B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F94BA51FD9F3F10083486B /* ViewController.swift */; };
 		D3F94BA91FD9F3F10083486B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F94BA71FD9F3F10083486B /* Main.storyboard */; };
 		D3F94BAB1FD9F3F10083486B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F94BAA1FD9F3F10083486B /* Assets.xcassets */; };
 		D3F94BAE1FD9F3F10083486B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F94BAC1FD9F3F10083486B /* LaunchScreen.storyboard */; };
+		ED07196B242746BFE2EA51EA /* Pods_Soy_Chelero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C0CBAFB910F0C2D40112D1 /* Pods_Soy_Chelero.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E411FCA5F88E6CCB45C3F3D /* Pods-Soy Chelero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soy Chelero.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Soy Chelero/Pods-Soy Chelero.debug.xcconfig"; sourceTree = "<group>"; };
+		BAA0A2B385DD3CC69DC57CB2 /* Pods-Soy Chelero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Soy Chelero.release.xcconfig"; path = "Pods/Target Support Files/Pods-Soy Chelero/Pods-Soy Chelero.release.xcconfig"; sourceTree = "<group>"; };
+		C8C0CBAFB910F0C2D40112D1 /* Pods_Soy_Chelero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Soy_Chelero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3092CC2205727EA0008B0B1 /* ViewControllerLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLogin.swift; sourceTree = "<group>"; };
+		D3092CC420572B570008B0B1 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		D3092CC62059E1B20008B0B1 /* TabBarControllerPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerPrincipal.swift; sourceTree = "<group>"; };
+		D3092CC82059E4B50008B0B1 /* ViewControllerCuenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCuenta.swift; sourceTree = "<group>"; };
+		D320001120754B9B00701E6A /* ViewControllerArmaTuPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerArmaTuPlan.swift; sourceTree = "<group>"; };
+		D320001320758DB500701E6A /* ViewControllerDatosEnvio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDatosEnvio.swift; sourceTree = "<group>"; };
+		D320001520758DDE00701E6A /* ViewControllerDAtosFacturacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDAtosFacturacion.swift; sourceTree = "<group>"; };
+		D320001720758E0100701E6A /* ViewControllerDatosPago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDatosPago.swift; sourceTree = "<group>"; };
+		D382A7482072E7FA00C1DD36 /* ViewControllerRegistro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistro.swift; sourceTree = "<group>"; };
+		D382A74A2072E80E00C1DD36 /* ViewControllerPrivacidad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPrivacidad.swift; sourceTree = "<group>"; };
+		D3ABE2672086A7E7004D7A28 /* TextFieldFancy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFancy.swift; sourceTree = "<group>"; };
+		D3ABE2692086D416004D7A28 /* TableViewCellChelas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellChelas.swift; sourceTree = "<group>"; };
+		D3ABE26A2086D416004D7A28 /* TableViewCellChelas.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellChelas.xib; sourceTree = "<group>"; };
+		D3ABE26D20878CCE004D7A28 /* ViewControllerForScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForScanner.swift; sourceTree = "<group>"; };
+		D3ABE26F2087BBFD004D7A28 /* ViewControllerMiColeccion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMiColeccion.swift; sourceTree = "<group>"; };
+		D3ABE27120881AB5004D7A28 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		D3ABE27320893FFE004D7A28 /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loader.gif; sourceTree = "<group>"; };
+		D3E39E33208F99AD0091B3F6 /* ViewControllerForChela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForChela.swift; sourceTree = "<group>"; };
 		D3F94BA01FD9F3F10083486B /* Soy Chelero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soy Chelero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F94BA31FD9F3F10083486B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3F94BA51FD9F3F10083486B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +69,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED07196B242746BFE2EA51EA /* Pods_Soy_Chelero.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04E33420D9011A812B63A22E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8C0CBAFB910F0C2D40112D1 /* Pods_Soy_Chelero.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3D0BB50B3977FF29555F25F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E411FCA5F88E6CCB45C3F3D /* Pods-Soy Chelero.debug.xcconfig */,
+				BAA0A2B385DD3CC69DC57CB2 /* Pods-Soy Chelero.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D320001920758E1B00701E6A /* Registro */ = {
+			isa = PBXGroup;
+			children = (
+				D382A7482072E7FA00C1DD36 /* ViewControllerRegistro.swift */,
+				D320001120754B9B00701E6A /* ViewControllerArmaTuPlan.swift */,
+				D382A74A2072E80E00C1DD36 /* ViewControllerPrivacidad.swift */,
+				D320001320758DB500701E6A /* ViewControllerDatosEnvio.swift */,
+				D320001520758DDE00701E6A /* ViewControllerDAtosFacturacion.swift */,
+				D320001720758E0100701E6A /* ViewControllerDatosPago.swift */,
+			);
+			path = Registro;
+			sourceTree = "<group>";
+		};
+		D320001A20758E5100701E6A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D3092CC2205727EA0008B0B1 /* ViewControllerLogin.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D320001B20758E6300701E6A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				D3092CC62059E1B20008B0B1 /* TabBarControllerPrincipal.swift */,
+				D3092CC82059E4B50008B0B1 /* ViewControllerCuenta.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		D3F94B971FD9F3F10083486B = {
 			isa = PBXGroup;
 			children = (
 				D3F94BA21FD9F3F10083486B /* Soy Chelero */,
 				D3F94BA11FD9F3F10083486B /* Products */,
+				C3D0BB50B3977FF29555F25F /* Pods */,
+				04E33420D9011A812B63A22E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +144,24 @@
 		D3F94BA21FD9F3F10083486B /* Soy Chelero */ = {
 			isa = PBXGroup;
 			children = (
+				D3ABE27320893FFE004D7A28 /* loader.gif */,
+				D320001B20758E6300701E6A /* Navigation */,
+				D320001A20758E5100701E6A /* Login */,
+				D320001920758E1B00701E6A /* Registro */,
 				D3F94BA31FD9F3F10083486B /* AppDelegate.swift */,
 				D3F94BA51FD9F3F10083486B /* ViewController.swift */,
 				D3F94BA71FD9F3F10083486B /* Main.storyboard */,
+				D3E39E33208F99AD0091B3F6 /* ViewControllerForChela.swift */,
+				D3ABE26F2087BBFD004D7A28 /* ViewControllerMiColeccion.swift */,
+				D3ABE26D20878CCE004D7A28 /* ViewControllerForScanner.swift */,
 				D3F94BAA1FD9F3F10083486B /* Assets.xcassets */,
 				D3F94BAC1FD9F3F10083486B /* LaunchScreen.storyboard */,
 				D3F94BAF1FD9F3F10083486B /* Info.plist */,
+				D3ABE2672086A7E7004D7A28 /* TextFieldFancy.swift */,
+				D3092CC420572B570008B0B1 /* Globals.swift */,
+				D3ABE2692086D416004D7A28 /* TableViewCellChelas.swift */,
+				D3ABE26A2086D416004D7A28 /* TableViewCellChelas.xib */,
+				D3ABE27120881AB5004D7A28 /* iOSDevCenters+GIF.swift */,
 			);
 			path = "Soy Chelero";
 			sourceTree = "<group>";
@@ -71,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3F94BB21FD9F3F10083486B /* Build configuration list for PBXNativeTarget "Soy Chelero" */;
 			buildPhases = (
+				06FCE84DB076008610FDAE20 /* [CP] Check Pods Manifest.lock */,
 				D3F94B9C1FD9F3F10083486B /* Sources */,
 				D3F94B9D1FD9F3F10083486B /* Frameworks */,
 				D3F94B9E1FD9F3F10083486B /* Resources */,
+				BB02F7A9BFF71AA11C7B19C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,18 +230,83 @@
 				D3F94BAE1FD9F3F10083486B /* LaunchScreen.storyboard in Resources */,
 				D3F94BAB1FD9F3F10083486B /* Assets.xcassets in Resources */,
 				D3F94BA91FD9F3F10083486B /* Main.storyboard in Resources */,
+				D3ABE27420893FFF004D7A28 /* loader.gif in Resources */,
+				D3ABE26C2086D416004D7A28 /* TableViewCellChelas.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06FCE84DB076008610FDAE20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Soy Chelero-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB02F7A9BFF71AA11C7B19C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Soy Chelero/Pods-Soy Chelero-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BarcodeScanner/BarcodeScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/MIBadgeButton-Swift/MIBadgeButton_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BarcodeScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MIBadgeButton_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Soy Chelero/Pods-Soy Chelero-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D3F94B9C1FD9F3F10083486B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3ABE26E20878CCE004D7A28 /* ViewControllerForScanner.swift in Sources */,
+				D3092CC92059E4B50008B0B1 /* ViewControllerCuenta.swift in Sources */,
+				D320001820758E0100701E6A /* ViewControllerDatosPago.swift in Sources */,
+				D382A7492072E7FA00C1DD36 /* ViewControllerRegistro.swift in Sources */,
+				D3E39E34208F99AD0091B3F6 /* ViewControllerForChela.swift in Sources */,
+				D3ABE27220881AB5004D7A28 /* iOSDevCenters+GIF.swift in Sources */,
+				D3ABE26B2086D416004D7A28 /* TableViewCellChelas.swift in Sources */,
+				D3092CC520572B570008B0B1 /* Globals.swift in Sources */,
 				D3F94BA61FD9F3F10083486B /* ViewController.swift in Sources */,
+				D320001620758DDE00701E6A /* ViewControllerDAtosFacturacion.swift in Sources */,
+				D3ABE2682086A7E7004D7A28 /* TextFieldFancy.swift in Sources */,
 				D3F94BA41FD9F3F10083486B /* AppDelegate.swift in Sources */,
+				D3092CC72059E1B20008B0B1 /* TabBarControllerPrincipal.swift in Sources */,
+				D3092CC3205727EA0008B0B1 /* ViewControllerLogin.swift in Sources */,
+				D320001220754B9B00701E6A /* ViewControllerArmaTuPlan.swift in Sources */,
+				D320001420758DB500701E6A /* ViewControllerDatosEnvio.swift in Sources */,
+				D3ABE2702087BBFD004D7A28 /* ViewControllerMiColeccion.swift in Sources */,
+				D382A74B2072E80E00C1DD36 /* ViewControllerPrivacidad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +441,7 @@
 		};
 		D3F94BB31FD9F3F10083486B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E411FCA5F88E6CCB45C3F3D /* Pods-Soy Chelero.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -281,12 +451,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Soto.Soy-Chelero";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D3F94BB41FD9F3F10083486B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAA0A2B385DD3CC69DC57CB2 /* Pods-Soy Chelero.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Soto.Soy-Chelero";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
