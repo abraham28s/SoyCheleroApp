@@ -6,6 +6,7 @@ PODS:
   - SDWebImage (4.3.3):
     - SDWebImage/Core (= 4.3.3)
   - SDWebImage/Core (4.3.3)
+  - ViewPager-Swift (1.2.1)
 
 DEPENDENCIES:
   - BarcodeScanner
@@ -13,6 +14,7 @@ DEPENDENCIES:
   - DropDown
   - MIBadgeButton-Swift (from `https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git`, branch `master`)
   - SDWebImage (~> 4.0)
+  - ViewPager-Swift
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -20,6 +22,7 @@ SPEC REPOS:
     - Cosmos
     - DropDown
     - SDWebImage
+    - ViewPager-Swift
 
 EXTERNAL SOURCES:
   MIBadgeButton-Swift:
@@ -37,7 +40,8 @@ SPEC CHECKSUMS:
   DropDown: 20499c7b2731b0d21609af924e47c7677a2be50d
   MIBadgeButton-Swift: 9e57309b00b168d75ca8fecb45bc75124a8ffddf
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  ViewPager-Swift: 2ec693504b75e818fc86437499860b64f0331b22
 
-PODFILE CHECKSUM: 2a464a67ecfc17ede4001ad6f2f9620fa16c10e4
+PODFILE CHECKSUM: a78676ac4b90271c60ef0f00d09cbf0cdf85a3d3
 
 COCOAPODS: 1.5.0

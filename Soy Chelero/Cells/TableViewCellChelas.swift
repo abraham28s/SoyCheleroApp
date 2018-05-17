@@ -16,9 +16,7 @@ class TableViewCellChelas: UITableViewCell {
     @IBOutlet weak var imageImg: UIImageView!
     @IBOutlet weak var ratingBar: CosmosView!
     @IBOutlet weak var commentsBtn: MIBadgeButton!
-    
-    @IBOutlet weak var masInfoBTn: UIButton!
-    
+    var id:Int = -1
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -26,6 +24,15 @@ class TableViewCellChelas: UITableViewCell {
         
     }
 
+    override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+        let pointInside = super.point(inside: point, with: event)
+    
+        if (pointInside && !self.ratingBar.point(inside: self.convert(point, to: self.ratingBar), with: event)){
+            return true
+        }
+        return true
+    }
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         

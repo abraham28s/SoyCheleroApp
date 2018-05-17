@@ -11,10 +11,21 @@
 		D3092CC520572B570008B0B1 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3092CC420572B570008B0B1 /* Globals.swift */; };
 		D3092CC72059E1B20008B0B1 /* TabBarControllerPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3092CC62059E1B20008B0B1 /* TabBarControllerPrincipal.swift */; };
 		D3092CC92059E4B50008B0B1 /* ViewControllerCuenta.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3092CC82059E4B50008B0B1 /* ViewControllerCuenta.swift */; };
+		D315708420AA0C530059DF81 /* TableViewCellDatosBasicos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D315708220AA0C530059DF81 /* TableViewCellDatosBasicos.swift */; };
+		D315708520AA0C530059DF81 /* TableViewCellDatosBasicos.xib in Resources */ = {isa = PBXBuildFile; fileRef = D315708320AA0C530059DF81 /* TableViewCellDatosBasicos.xib */; };
+		D315708820AA243D0059DF81 /* TableViewCellDatosEnvio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D315708620AA243D0059DF81 /* TableViewCellDatosEnvio.swift */; };
+		D315708920AA243D0059DF81 /* TableViewCellDatosEnvio.xib in Resources */ = {isa = PBXBuildFile; fileRef = D315708720AA243D0059DF81 /* TableViewCellDatosEnvio.xib */; };
+		D315708C20AA2B1E0059DF81 /* TableViewCellSubscripcion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D315708A20AA2B1E0059DF81 /* TableViewCellSubscripcion.swift */; };
+		D315708D20AA2B1E0059DF81 /* TableViewCellSubscripcion.xib in Resources */ = {isa = PBXBuildFile; fileRef = D315708B20AA2B1E0059DF81 /* TableViewCellSubscripcion.xib */; };
 		D320001220754B9B00701E6A /* ViewControllerArmaTuPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320001120754B9B00701E6A /* ViewControllerArmaTuPlan.swift */; };
 		D320001420758DB500701E6A /* ViewControllerDatosEnvio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320001320758DB500701E6A /* ViewControllerDatosEnvio.swift */; };
 		D320001620758DDE00701E6A /* ViewControllerDAtosFacturacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320001520758DDE00701E6A /* ViewControllerDAtosFacturacion.swift */; };
 		D320001820758E0100701E6A /* ViewControllerDatosPago.swift in Sources */ = {isa = PBXBuildFile; fileRef = D320001720758E0100701E6A /* ViewControllerDatosPago.swift */; };
+		D3460F5820AD1B03001F658F /* TableViewCellForComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3460F5620AD1B03001F658F /* TableViewCellForComments.swift */; };
+		D3460F5920AD1B03001F658F /* TableViewCellForComments.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3460F5720AD1B03001F658F /* TableViewCellForComments.xib */; };
+		D373A8A620ABA73B00993527 /* CollectionViewCellCoaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373A8A420ABA73B00993527 /* CollectionViewCellCoaster.swift */; };
+		D373A8A720ABA73B00993527 /* CollectionViewCellCoaster.xib in Resources */ = {isa = PBXBuildFile; fileRef = D373A8A520ABA73B00993527 /* CollectionViewCellCoaster.xib */; };
+		D373A8AA20AC176700993527 /* ViewControllerCoaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = D373A8A920AC176700993527 /* ViewControllerCoaster.swift */; };
 		D382A7492072E7FA00C1DD36 /* ViewControllerRegistro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382A7482072E7FA00C1DD36 /* ViewControllerRegistro.swift */; };
 		D382A74B2072E80E00C1DD36 /* ViewControllerPrivacidad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D382A74A2072E80E00C1DD36 /* ViewControllerPrivacidad.swift */; };
 		D3ABE2682086A7E7004D7A28 /* TextFieldFancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ABE2672086A7E7004D7A28 /* TextFieldFancy.swift */; };
@@ -25,6 +36,18 @@
 		D3ABE27220881AB5004D7A28 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ABE27120881AB5004D7A28 /* iOSDevCenters+GIF.swift */; };
 		D3ABE27420893FFF004D7A28 /* loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = D3ABE27320893FFE004D7A28 /* loader.gif */; };
 		D3E39E34208F99AD0091B3F6 /* ViewControllerForChela.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E39E33208F99AD0091B3F6 /* ViewControllerForChela.swift */; };
+		D3E39E37209002660091B3F6 /* TableViewCellPedidos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E39E35209002660091B3F6 /* TableViewCellPedidos.swift */; };
+		D3E39E38209002660091B3F6 /* TableViewCellPedidos.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E39E36209002660091B3F6 /* TableViewCellPedidos.xib */; };
+		D3E39E4220916D7D0091B3F6 /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3E39E4020916CFF0091B3F6 /* RobotoSlab-Bold.ttf */; };
+		D3E39E4320916D800091B3F6 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3E39E3F20916CFF0091B3F6 /* RobotoSlab-Light.ttf */; };
+		D3E39E4420916D820091B3F6 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3E39E3E20916CFD0091B3F6 /* RobotoSlab-Regular.ttf */; };
+		D3E39E4520916D840091B3F6 /* RobotoSlab-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3E39E4120916CFF0091B3F6 /* RobotoSlab-Thin.ttf */; };
+		D3E39E4920926AFB0091B3F6 /* ButtonFancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E39E4820926AFB0091B3F6 /* ButtonFancy.swift */; };
+		D3E39E4B209BCEC50091B3F6 /* ViewControllerCoasters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E39E4A209BCEC50091B3F6 /* ViewControllerCoasters.swift */; };
+		D3E50FEF20A58D6600AC6431 /* ViewControllerPedidos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E50FEE20A58D6600AC6431 /* ViewControllerPedidos.swift */; };
+		D3E50FF220A60CE600AC6431 /* starOff.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E50FF020A60CE500AC6431 /* starOff.png */; };
+		D3E50FF320A60CE600AC6431 /* starOn.png in Resources */ = {isa = PBXBuildFile; fileRef = D3E50FF120A60CE500AC6431 /* starOn.png */; };
+		D3E50FF520A96F9F00AC6431 /* ViewControllerComments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E50FF420A96F9F00AC6431 /* ViewControllerComments.swift */; };
 		D3F94BA41FD9F3F10083486B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F94BA31FD9F3F10083486B /* AppDelegate.swift */; };
 		D3F94BA61FD9F3F10083486B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F94BA51FD9F3F10083486B /* ViewController.swift */; };
 		D3F94BA91FD9F3F10083486B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3F94BA71FD9F3F10083486B /* Main.storyboard */; };
@@ -41,10 +64,21 @@
 		D3092CC420572B570008B0B1 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		D3092CC62059E1B20008B0B1 /* TabBarControllerPrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControllerPrincipal.swift; sourceTree = "<group>"; };
 		D3092CC82059E4B50008B0B1 /* ViewControllerCuenta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCuenta.swift; sourceTree = "<group>"; };
+		D315708220AA0C530059DF81 /* TableViewCellDatosBasicos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellDatosBasicos.swift; sourceTree = "<group>"; };
+		D315708320AA0C530059DF81 /* TableViewCellDatosBasicos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellDatosBasicos.xib; sourceTree = "<group>"; };
+		D315708620AA243D0059DF81 /* TableViewCellDatosEnvio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellDatosEnvio.swift; sourceTree = "<group>"; };
+		D315708720AA243D0059DF81 /* TableViewCellDatosEnvio.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellDatosEnvio.xib; sourceTree = "<group>"; };
+		D315708A20AA2B1E0059DF81 /* TableViewCellSubscripcion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellSubscripcion.swift; sourceTree = "<group>"; };
+		D315708B20AA2B1E0059DF81 /* TableViewCellSubscripcion.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellSubscripcion.xib; sourceTree = "<group>"; };
 		D320001120754B9B00701E6A /* ViewControllerArmaTuPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerArmaTuPlan.swift; sourceTree = "<group>"; };
 		D320001320758DB500701E6A /* ViewControllerDatosEnvio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDatosEnvio.swift; sourceTree = "<group>"; };
 		D320001520758DDE00701E6A /* ViewControllerDAtosFacturacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDAtosFacturacion.swift; sourceTree = "<group>"; };
 		D320001720758E0100701E6A /* ViewControllerDatosPago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDatosPago.swift; sourceTree = "<group>"; };
+		D3460F5620AD1B03001F658F /* TableViewCellForComments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellForComments.swift; sourceTree = "<group>"; };
+		D3460F5720AD1B03001F658F /* TableViewCellForComments.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellForComments.xib; sourceTree = "<group>"; };
+		D373A8A420ABA73B00993527 /* CollectionViewCellCoaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellCoaster.swift; sourceTree = "<group>"; };
+		D373A8A520ABA73B00993527 /* CollectionViewCellCoaster.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCellCoaster.xib; sourceTree = "<group>"; };
+		D373A8A920AC176700993527 /* ViewControllerCoaster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCoaster.swift; sourceTree = "<group>"; };
 		D382A7482072E7FA00C1DD36 /* ViewControllerRegistro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegistro.swift; sourceTree = "<group>"; };
 		D382A74A2072E80E00C1DD36 /* ViewControllerPrivacidad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPrivacidad.swift; sourceTree = "<group>"; };
 		D3ABE2672086A7E7004D7A28 /* TextFieldFancy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldFancy.swift; sourceTree = "<group>"; };
@@ -55,6 +89,18 @@
 		D3ABE27120881AB5004D7A28 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
 		D3ABE27320893FFE004D7A28 /* loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loader.gif; sourceTree = "<group>"; };
 		D3E39E33208F99AD0091B3F6 /* ViewControllerForChela.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerForChela.swift; sourceTree = "<group>"; };
+		D3E39E35209002660091B3F6 /* TableViewCellPedidos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellPedidos.swift; sourceTree = "<group>"; };
+		D3E39E36209002660091B3F6 /* TableViewCellPedidos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellPedidos.xib; sourceTree = "<group>"; };
+		D3E39E3E20916CFD0091B3F6 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		D3E39E3F20916CFF0091B3F6 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		D3E39E4020916CFF0091B3F6 /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		D3E39E4120916CFF0091B3F6 /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Thin.ttf"; sourceTree = "<group>"; };
+		D3E39E4820926AFB0091B3F6 /* ButtonFancy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFancy.swift; sourceTree = "<group>"; };
+		D3E39E4A209BCEC50091B3F6 /* ViewControllerCoasters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCoasters.swift; sourceTree = "<group>"; };
+		D3E50FEE20A58D6600AC6431 /* ViewControllerPedidos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPedidos.swift; sourceTree = "<group>"; };
+		D3E50FF020A60CE500AC6431 /* starOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starOff.png; sourceTree = "<group>"; };
+		D3E50FF120A60CE500AC6431 /* starOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starOn.png; sourceTree = "<group>"; };
+		D3E50FF420A96F9F00AC6431 /* ViewControllerComments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerComments.swift; sourceTree = "<group>"; };
 		D3F94BA01FD9F3F10083486B /* Soy Chelero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Soy Chelero.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F94BA31FD9F3F10083486B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3F94BA51FD9F3F10083486B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,9 +164,45 @@
 			isa = PBXGroup;
 			children = (
 				D3092CC62059E1B20008B0B1 /* TabBarControllerPrincipal.swift */,
+				D3ABE26F2087BBFD004D7A28 /* ViewControllerMiColeccion.swift */,
+				D3E39E4A209BCEC50091B3F6 /* ViewControllerCoasters.swift */,
+				D3ABE26D20878CCE004D7A28 /* ViewControllerForScanner.swift */,
+				D3E50FEE20A58D6600AC6431 /* ViewControllerPedidos.swift */,
 				D3092CC82059E4B50008B0B1 /* ViewControllerCuenta.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		D373A8A820ABA74900993527 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D315708220AA0C530059DF81 /* TableViewCellDatosBasicos.swift */,
+				D315708320AA0C530059DF81 /* TableViewCellDatosBasicos.xib */,
+				D315708A20AA2B1E0059DF81 /* TableViewCellSubscripcion.swift */,
+				D315708B20AA2B1E0059DF81 /* TableViewCellSubscripcion.xib */,
+				D315708620AA243D0059DF81 /* TableViewCellDatosEnvio.swift */,
+				D315708720AA243D0059DF81 /* TableViewCellDatosEnvio.xib */,
+				D3ABE2692086D416004D7A28 /* TableViewCellChelas.swift */,
+				D3ABE26A2086D416004D7A28 /* TableViewCellChelas.xib */,
+				D3E39E35209002660091B3F6 /* TableViewCellPedidos.swift */,
+				D3E39E36209002660091B3F6 /* TableViewCellPedidos.xib */,
+				D373A8A420ABA73B00993527 /* CollectionViewCellCoaster.swift */,
+				D373A8A520ABA73B00993527 /* CollectionViewCellCoaster.xib */,
+				D3460F5620AD1B03001F658F /* TableViewCellForComments.swift */,
+				D3460F5720AD1B03001F658F /* TableViewCellForComments.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D3E39E3D20916CDE0091B3F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3E39E4020916CFF0091B3F6 /* RobotoSlab-Bold.ttf */,
+				D3E39E3F20916CFF0091B3F6 /* RobotoSlab-Light.ttf */,
+				D3E39E3E20916CFD0091B3F6 /* RobotoSlab-Regular.ttf */,
+				D3E39E4120916CFF0091B3F6 /* RobotoSlab-Thin.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		D3F94B971FD9F3F10083486B = {
@@ -144,23 +226,26 @@
 		D3F94BA21FD9F3F10083486B /* Soy Chelero */ = {
 			isa = PBXGroup;
 			children = (
+				D373A8A820ABA74900993527 /* Cells */,
+				D3E39E3D20916CDE0091B3F6 /* Resources */,
 				D3ABE27320893FFE004D7A28 /* loader.gif */,
 				D320001B20758E6300701E6A /* Navigation */,
 				D320001A20758E5100701E6A /* Login */,
 				D320001920758E1B00701E6A /* Registro */,
 				D3F94BA31FD9F3F10083486B /* AppDelegate.swift */,
 				D3F94BA51FD9F3F10083486B /* ViewController.swift */,
+				D3E50FF120A60CE500AC6431 /* starOn.png */,
+				D3E50FF020A60CE500AC6431 /* starOff.png */,
 				D3F94BA71FD9F3F10083486B /* Main.storyboard */,
+				D373A8A920AC176700993527 /* ViewControllerCoaster.swift */,
 				D3E39E33208F99AD0091B3F6 /* ViewControllerForChela.swift */,
-				D3ABE26F2087BBFD004D7A28 /* ViewControllerMiColeccion.swift */,
-				D3ABE26D20878CCE004D7A28 /* ViewControllerForScanner.swift */,
 				D3F94BAA1FD9F3F10083486B /* Assets.xcassets */,
 				D3F94BAC1FD9F3F10083486B /* LaunchScreen.storyboard */,
 				D3F94BAF1FD9F3F10083486B /* Info.plist */,
 				D3ABE2672086A7E7004D7A28 /* TextFieldFancy.swift */,
+				D3E39E4820926AFB0091B3F6 /* ButtonFancy.swift */,
 				D3092CC420572B570008B0B1 /* Globals.swift */,
-				D3ABE2692086D416004D7A28 /* TableViewCellChelas.swift */,
-				D3ABE26A2086D416004D7A28 /* TableViewCellChelas.xib */,
+				D3E50FF420A96F9F00AC6431 /* ViewControllerComments.swift */,
 				D3ABE27120881AB5004D7A28 /* iOSDevCenters+GIF.swift */,
 			);
 			path = "Soy Chelero";
@@ -227,10 +312,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D315708520AA0C530059DF81 /* TableViewCellDatosBasicos.xib in Resources */,
 				D3F94BAE1FD9F3F10083486B /* LaunchScreen.storyboard in Resources */,
 				D3F94BAB1FD9F3F10083486B /* Assets.xcassets in Resources */,
+				D3E39E38209002660091B3F6 /* TableViewCellPedidos.xib in Resources */,
+				D315708920AA243D0059DF81 /* TableViewCellDatosEnvio.xib in Resources */,
+				D315708D20AA2B1E0059DF81 /* TableViewCellSubscripcion.xib in Resources */,
+				D373A8A720ABA73B00993527 /* CollectionViewCellCoaster.xib in Resources */,
+				D3460F5920AD1B03001F658F /* TableViewCellForComments.xib in Resources */,
+				D3E50FF220A60CE600AC6431 /* starOff.png in Resources */,
 				D3F94BA91FD9F3F10083486B /* Main.storyboard in Resources */,
+				D3E39E4220916D7D0091B3F6 /* RobotoSlab-Bold.ttf in Resources */,
+				D3E39E4320916D800091B3F6 /* RobotoSlab-Light.ttf in Resources */,
+				D3E39E4420916D820091B3F6 /* RobotoSlab-Regular.ttf in Resources */,
+				D3E39E4520916D840091B3F6 /* RobotoSlab-Thin.ttf in Resources */,
 				D3ABE27420893FFF004D7A28 /* loader.gif in Resources */,
+				D3E50FF320A60CE600AC6431 /* starOn.png in Resources */,
 				D3ABE26C2086D416004D7A28 /* TableViewCellChelas.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +365,7 @@
 				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
 				"${BUILT_PRODUCTS_DIR}/MIBadgeButton-Swift/MIBadgeButton_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/ViewPager-Swift/ViewPager_Swift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -276,6 +374,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MIBadgeButton_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewPager_Swift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -289,22 +388,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3E39E4B209BCEC50091B3F6 /* ViewControllerCoasters.swift in Sources */,
+				D3E39E37209002660091B3F6 /* TableViewCellPedidos.swift in Sources */,
 				D3ABE26E20878CCE004D7A28 /* ViewControllerForScanner.swift in Sources */,
 				D3092CC92059E4B50008B0B1 /* ViewControllerCuenta.swift in Sources */,
+				D3E50FF520A96F9F00AC6431 /* ViewControllerComments.swift in Sources */,
 				D320001820758E0100701E6A /* ViewControllerDatosPago.swift in Sources */,
 				D382A7492072E7FA00C1DD36 /* ViewControllerRegistro.swift in Sources */,
 				D3E39E34208F99AD0091B3F6 /* ViewControllerForChela.swift in Sources */,
+				D315708C20AA2B1E0059DF81 /* TableViewCellSubscripcion.swift in Sources */,
 				D3ABE27220881AB5004D7A28 /* iOSDevCenters+GIF.swift in Sources */,
+				D373A8AA20AC176700993527 /* ViewControllerCoaster.swift in Sources */,
 				D3ABE26B2086D416004D7A28 /* TableViewCellChelas.swift in Sources */,
+				D3E39E4920926AFB0091B3F6 /* ButtonFancy.swift in Sources */,
+				D373A8A620ABA73B00993527 /* CollectionViewCellCoaster.swift in Sources */,
 				D3092CC520572B570008B0B1 /* Globals.swift in Sources */,
 				D3F94BA61FD9F3F10083486B /* ViewController.swift in Sources */,
 				D320001620758DDE00701E6A /* ViewControllerDAtosFacturacion.swift in Sources */,
 				D3ABE2682086A7E7004D7A28 /* TextFieldFancy.swift in Sources */,
+				D315708820AA243D0059DF81 /* TableViewCellDatosEnvio.swift in Sources */,
+				D3E50FEF20A58D6600AC6431 /* ViewControllerPedidos.swift in Sources */,
 				D3F94BA41FD9F3F10083486B /* AppDelegate.swift in Sources */,
 				D3092CC72059E1B20008B0B1 /* TabBarControllerPrincipal.swift in Sources */,
 				D3092CC3205727EA0008B0B1 /* ViewControllerLogin.swift in Sources */,
 				D320001220754B9B00701E6A /* ViewControllerArmaTuPlan.swift in Sources */,
+				D315708420AA0C530059DF81 /* TableViewCellDatosBasicos.swift in Sources */,
 				D320001420758DB500701E6A /* ViewControllerDatosEnvio.swift in Sources */,
+				D3460F5820AD1B03001F658F /* TableViewCellForComments.swift in Sources */,
 				D3ABE2702087BBFD004D7A28 /* ViewControllerMiColeccion.swift in Sources */,
 				D382A74B2072E80E00C1DD36 /* ViewControllerPrivacidad.swift in Sources */,
 			);

@@ -18,7 +18,7 @@ class TextFieldFancy: UITextField {
     }
     */
     
-    let UIColorChelero = UIColor().hexStringToUIColor(hex: "C4895A")
+    let UIColorChelero = UIColor().hexStringToUIColor(hex: "c1996f")
     
     override func draw(_ rect: CGRect) {
         self.layer.borderWidth = 2

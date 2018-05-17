@@ -19,6 +19,7 @@ class ViewControllerLogin: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var loginForm: UIView!
     var loginFrmAlwPos = CGRect()
     var tecladoMostrado = false
+    let globales = Globales()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,9 +48,7 @@ class ViewControllerLogin: UIViewController, UITextFieldDelegate {
         btnEntrar.layer.cornerRadius = 3
         btnRegistrarse.layer.cornerRadius = 3
         btnRegistrarse.layer.borderWidth = 0.5
-        txtEmail.layer.borderWidth = 0.5
-        txtEmail.layer.borderColor = UIColor.gray.cgColor
-        txtEmail.layer.cornerRadius = 3
+        
         btnRegistrarse.layer.borderColor = UIColor.gray.cgColor
         let tap = UITapGestureRecognizer(target: self, action: #selector(tapped))
         self.view.addGestureRecognizer(tap)
@@ -103,7 +102,7 @@ class ViewControllerLogin: UIViewController, UITextFieldDelegate {
             if(isEmailValid(testStr: texto)){
                 LblErrorCorreo.text = ""
                 LblErrorCorreo.isHidden = true
-                textField.layer.borderColor = UIColor.gray.cgColor
+                textField.layer.borderColor = UIColor().ColorChelero().cgColor
             }else{
                 LblErrorCorreo.text = "El correo no es valido."
                 LblErrorCorreo.isHidden = false
@@ -112,7 +111,7 @@ class ViewControllerLogin: UIViewController, UITextFieldDelegate {
         }else{
             LblErrorCorreo.text = ""
             LblErrorCorreo.isHidden = true
-            textField.layer.borderColor = UIColor.gray.cgColor
+            textField.layer.borderColor = UIColor().ColorChelero().cgColor
         }
         
     }
@@ -123,7 +122,7 @@ class ViewControllerLogin: UIViewController, UITextFieldDelegate {
             if(isPassValid(testStr: texto)){
                 LblErrorPassword.text = ""
                 LblErrorPassword.isHidden = true
-                textField.layer.borderColor = UIColor.gray.cgColor
+                textField.layer.borderColor = UIColor().ColorChelero().cgColor
             }else{
                 LblErrorPassword.text = "La contraseña no es valida."
                 LblErrorPassword.isHidden = false
@@ -132,7 +131,7 @@ class ViewControllerLogin: UIViewController, UITextFieldDelegate {
         }else{
             LblErrorPassword.text = ""
             LblErrorPassword.isHidden = true
-            textField.layer.borderColor = UIColor.gray.cgColor
+            textField.layer.borderColor = UIColor().ColorChelero().cgColor
         }
         
     }

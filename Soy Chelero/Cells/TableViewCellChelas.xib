@@ -30,7 +30,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbv-lP-f8U">
-                                <rect key="frame" x="108" y="323" width="42" height="21"/>
+                                <rect key="frame" x="104" y="323" width="50" height="25.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -40,6 +40,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="32" id="NR8-JW-Lf5"/>
                                 </constraints>
+                                <color key="tintColor" red="0.75686274509999996" green="0.59999999999999998" blue="0.43529411759999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" image="comments"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="badgeString" value="3"/>
@@ -51,25 +52,15 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cIo-3x-gMI" customClass="CosmosView" customModule="Cosmos">
-                                <rect key="frame" x="19" y="352" width="171" height="33"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <view autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cIo-3x-gMI" customClass="CosmosView" customModule="Cosmos">
+                                <rect key="frame" x="19" y="352" width="171" height="37"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.75686274509999996" green="0.59999999999999998" blue="0.43529411759999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
-                                        <color key="value" red="0.81568627449999997" green="0.60784313729999995" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
-                                        <color key="value" red="0.81568627449999997" green="0.60784313729999995" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="filledBorderColor">
-                                        <color key="value" red="0.81568627449999997" green="0.60784313729999995" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyBorderColor">
-                                        <color key="value" red="0.81568627449999997" green="0.60784313729999995" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="starSize">
-                                        <real key="value" value="30"/>
-                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="starOff.png"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="starOn.png"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="updateOnTouch" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="filledImage" value="starOn"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
@@ -80,13 +71,13 @@
                             <constraint firstAttribute="trailing" secondItem="QYh-VL-nYh" secondAttribute="trailing" constant="20" id="2aM-k9-o3x"/>
                             <constraint firstItem="5Ri-Tc-jLW" firstAttribute="leading" secondItem="72g-Gi-A2t" secondAttribute="leadingMargin" id="Bgo-k2-aR3"/>
                             <constraint firstItem="5Ri-Tc-jLW" firstAttribute="centerX" secondItem="72g-Gi-A2t" secondAttribute="centerX" id="DPT-tz-mxc"/>
-                            <constraint firstItem="cIo-3x-gMI" firstAttribute="top" secondItem="Sbv-lP-f8U" secondAttribute="bottom" constant="17" id="ULa-hm-r4q"/>
+                            <constraint firstItem="cIo-3x-gMI" firstAttribute="top" secondItem="Sbv-lP-f8U" secondAttribute="bottom" constant="3.5" id="ULa-hm-r4q"/>
                             <constraint firstItem="QYh-VL-nYh" firstAttribute="top" secondItem="5Ri-Tc-jLW" secondAttribute="bottom" constant="50" id="aVp-Mb-LoH"/>
                             <constraint firstItem="Sbv-lP-f8U" firstAttribute="centerX" secondItem="5Ri-Tc-jLW" secondAttribute="centerX" id="gCM-lA-Ukk"/>
                             <constraint firstAttribute="bottom" secondItem="QYh-VL-nYh" secondAttribute="bottom" constant="15" id="gdo-xe-aEb"/>
                             <constraint firstItem="QYh-VL-nYh" firstAttribute="leading" secondItem="cIo-3x-gMI" secondAttribute="trailing" constant="18" id="huZ-Dk-RJp"/>
                             <constraint firstItem="5Ri-Tc-jLW" firstAttribute="top" secondItem="72g-Gi-A2t" secondAttribute="top" constant="8" id="mjp-wV-khH"/>
-                            <constraint firstItem="cIo-3x-gMI" firstAttribute="centerY" secondItem="QYh-VL-nYh" secondAttribute="centerY" id="v3c-Wz-y4b"/>
+                            <constraint firstItem="cIo-3x-gMI" firstAttribute="centerY" secondItem="QYh-VL-nYh" secondAttribute="centerY" constant="-1.5" id="v3c-Wz-y4b"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -111,5 +102,8 @@
     </objects>
     <resources>
         <image name="comments" width="24" height="24"/>
+        <image name="starOff.png" width="32" height="32"/>
+        <image name="starOn" width="32" height="32"/>
+        <image name="starOn.png" width="32" height="32"/>
     </resources>
 </document>

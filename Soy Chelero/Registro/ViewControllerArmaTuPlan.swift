@@ -23,9 +23,9 @@ class ViewControllerArmaTuPlan: UIViewController {
     @IBOutlet weak var totalChelasLbl: UILabel!
     var arrDif:[UIControl] = []
     var arrCad:[UIControl] = []
-    let colorChelero = UIColor().hexStringToUIColor(hex: "C4895A").cgColor
+    let colorChelero = UIColor().hexStringToUIColor(hex: "#c1996f").cgColor
     
-    let UIColorChelero = UIColor().hexStringToUIColor(hex: "C4895A")
+    let UIColorChelero = UIColor().hexStringToUIColor(hex: "#c1996f")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -108,88 +108,148 @@ class ViewControllerArmaTuPlan: UIViewController {
         var precioMem = "$ 0"
         var totalChelas = "0"
         
-            switch sender.tag{
-            case 1:
-                //Checamos que un boton de abajo este picado
-                if arrCad[0].backgroundColor == UIColorChelero{
-                    precioMem = "$ 90"
-                    totalChelas = "2"
-                }else if arrCad[1].backgroundColor == UIColorChelero{
-                    precioMem = "$ 250"
-                    totalChelas = "6"
-                }else if arrCad[2].backgroundColor == UIColorChelero{
-                    precioMem = "$ 500"
-                    totalChelas = "12"
-                }
-            case 2:
-                if arrCad[0].backgroundColor == UIColorChelero{
-                    precioMem = "$ 180"
-                    totalChelas = "4"
-                }else if arrCad[1].backgroundColor == UIColorChelero{
-                    precioMem = "$ 500"
-                    totalChelas = "12"
-                }else if arrCad[2].backgroundColor == UIColorChelero{
-                    precioMem = "$ 999"
-                    totalChelas = "24"
-                }
-            case 3:
-                if arrCad[0].backgroundColor == UIColorChelero{
-                    precioMem = "$ 250"
-                    totalChelas = "6"
-                }else if arrCad[1].backgroundColor == UIColorChelero{
-                    precioMem = "$ 749"
-                    totalChelas = "18"
-                }else if arrCad[2].backgroundColor == UIColorChelero{
-                    precioMem = "$ 1500"
-                    totalChelas = "36"
-                }
-            case 4:
-                if arrDif[0].backgroundColor == UIColorChelero{
-                    precioMem = "$ 90"
-                    totalChelas = "2"
-                }else if arrDif[1].backgroundColor == UIColorChelero{
-                    precioMem = "$ 180"
-                    totalChelas = "4"
-                }else if arrDif[2].backgroundColor == UIColorChelero{
-                    precioMem = "$ 250"
-                    totalChelas = "6"
-                }
-            case 5:
-                if arrDif[0].backgroundColor == UIColorChelero{
-                    precioMem = "$ 250"
-                    totalChelas = "6"
-                }else if arrDif[1].backgroundColor == UIColorChelero{
-                    precioMem = "$ 500"
-                    totalChelas = "12"
-                }else if arrDif[2].backgroundColor == UIColorChelero{
-                    precioMem = "$ 749"
-                    totalChelas = "18"
-                }
-            case 6:
-                if arrDif[0].backgroundColor == UIColorChelero{
-                    precioMem = "$ 500"
-                    totalChelas = "12"
-                }else if arrDif[1].backgroundColor == UIColorChelero{
-                    precioMem = "$ 999"
-                    totalChelas = "24"
-                }else if arrDif[2].backgroundColor == UIColorChelero{
-                    precioMem = "$ 1500"
-                    totalChelas = "36"
-                }
-            default:
-                print("is not possibru")
+        switch sender.tag{
+        //Una cerveza diferente
+        case 1:
+            //Checamos que un boton de abajo este picado
+            //una diferente 2 de cada una
+            if arrCad[0].backgroundColor == UIColorChelero{
+                precioMem = "$ 90"
+                totalChelas = "2"
+                UserDefaults.standard.set("1", forKey: "idPedido")
+                
+                // una diferente 6 de cada una
+            }else if arrCad[1].backgroundColor == UIColorChelero{
+                precioMem = "$ 250"
+                totalChelas = "6"
+                UserDefaults.standard.set("2", forKey: "idPedido")
+                
+                // una diferente 12 de cada una
+            }else if arrCad[2].backgroundColor == UIColorChelero{
+                precioMem = "$ 500"
+                totalChelas = "12"
+                UserDefaults.standard.set("3", forKey: "idPedido")
             }
+        //Dos cerveza diferente
+        case 2:
+            
+            //dos diferentes dos de cada una
+            if arrCad[0].backgroundColor == UIColorChelero{
+                precioMem = "$ 180"
+                totalChelas = "4"
+               UserDefaults.standard.set("4", forKey: "idPedido")
+                //dos diferentes 6 de cada una
+            }else if arrCad[1].backgroundColor == UIColorChelero{
+                precioMem = "$ 500"
+                totalChelas = "12"
+                UserDefaults.standard.set("5", forKey: "idPedido")
+                // dos diferentes, 12 de cada una
+            }else if arrCad[2].backgroundColor == UIColorChelero{
+                precioMem = "$ 999"
+                totalChelas = "24"
+                UserDefaults.standard.set("6", forKey: "idPedido")
+            }
+        //Tres cerveza diferente
+        case 3:
+            // 3 diferentes, 2 de cada una
+            if arrCad[0].backgroundColor == UIColorChelero{
+                precioMem = "$ 250"
+                totalChelas = "6"
+                UserDefaults.standard.set("7", forKey: "idPedido")
+                // 3 diferentes, 6 de cada una
+            }else if arrCad[1].backgroundColor == UIColorChelero{
+                precioMem = "$ 749"
+                totalChelas = "18"
+                 UserDefaults.standard.set("8", forKey: "idPedido")
+                // 3 diferentes, 12 de cada una
+            }else if arrCad[2].backgroundColor == UIColorChelero{
+                precioMem = "$ 1500"
+                totalChelas = "36"
+                UserDefaults.standard.set("9", forKey: "idPedido")
+            }
+        //dos de cada una
+        case 4:
+            // dos de cada una, una diferente
+            if arrDif[0].backgroundColor == UIColorChelero{
+                precioMem = "$ 90"
+                totalChelas = "2"
+                UserDefaults.standard.set("1", forKey: "idPedido")
+                
+                // dos de cada una, dos difertenes
+            }else if arrDif[1].backgroundColor == UIColorChelero{
+                precioMem = "$ 180"
+                totalChelas = "4"
+                UserDefaults.standard.set("4", forKey: "idPedido")
+                // dos de cada una tres diferentes
+            }else if arrDif[2].backgroundColor == UIColorChelero{
+                precioMem = "$ 250"
+                totalChelas = "6"
+                UserDefaults.standard.set("7", forKey: "idPedido")
+            }
+        ////Seis de cada una
+        case 5:
+            // seid de cada una una diferente
+            if arrDif[0].backgroundColor == UIColorChelero{
+                precioMem = "$ 250"
+                totalChelas = "6"
+                UserDefaults.standard.set("2", forKey: "idPedido")
+                // seis de cada una dos diferentes
+            }else if arrDif[1].backgroundColor == UIColorChelero{
+                precioMem = "$ 500"
+                totalChelas = "12"
+               UserDefaults.standard.set("5", forKey: "idPedido")
+                // 6 de cada una 3 diferentes
+            }else if arrDif[2].backgroundColor == UIColorChelero{
+                precioMem = "$ 749"
+                totalChelas = "18"
+                UserDefaults.standard.set("8", forKey: "idPedido")
+            }
+        //12 de cada una
+        case 6:
+            //12 de cada una, una diferente
+            if arrDif[0].backgroundColor == UIColorChelero{
+                precioMem = "$ 500"
+                totalChelas = "12"
+               UserDefaults.standard.set("3", forKey: "idPedido")
+                //12 de cada una, dos diferentes
+            }else if arrDif[1].backgroundColor == UIColorChelero{
+                precioMem = "$ 999"
+                totalChelas = "24"
+                UserDefaults.standard.set("6", forKey: "idPedido")
+                //12 de cada una, tres diferentes
+            }else if arrDif[2].backgroundColor == UIColorChelero{
+                precioMem = "$ 1500"
+                totalChelas = "36"
+                UserDefaults.standard.set("9", forKey: "idPedido")
+            }
+        default:
+            print("is not possibru")
+        }
         
         precioLbl.text = precioMem
         totalChelasLbl.text = totalChelas
         
     }
     @IBAction func pressNext(_ sender: Any) {
-        let newViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SBDatosPersonales") as! ViewControllerRegistro
-        newViewController.esCompleto = true
-        self.present(newViewController, animated: true, completion: nil)
+        if(planIsSelected()){
+            let newViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SBDatosPersonales") as! ViewControllerRegistro
+            newViewController.esCompleto = true
+            self.present(newViewController, animated: true, completion: nil)
+        }else{
+            let alerta = UIAlertController(title: "Error", message: "Debes seleccionar un plan", preferredStyle: .alert)
+            let accion = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
+            alerta.addAction(accion)
+            self.present(alerta, animated: true, completion: nil)
+        }
+        
+        
+        
+        
     }
     
+    func planIsSelected() -> Bool{
+        return precioLbl.text != "$ 0" && totalChelasLbl.text != "0"
+    }
     
     @IBAction func pressOnlyRegister(_ sender: Any) {
         let newViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SBDatosPersonales") as! ViewControllerRegistro
@@ -200,16 +260,4 @@ class ViewControllerArmaTuPlan: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

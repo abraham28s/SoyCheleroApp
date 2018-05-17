@@ -20,7 +20,7 @@ class ViewControllerRegistro: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var confirmTxt: TextFieldFancy!
     @IBOutlet weak var telefonoTxt: TextFieldFancy!
     @IBOutlet weak var fechaNacimientoTxt: TextFieldFancy!
-    
+    var fechaPicker = UIDatePicker()
     
     var esCompleto:Bool = false
     override func viewDidLoad() {
@@ -35,6 +35,22 @@ class ViewControllerRegistro: UIViewController, UITextFieldDelegate {
         confirmTxt.delegate = self
         telefonoTxt.delegate = self
         fechaNacimientoTxt.delegate = self
+        fechaPicker.addTarget(self, action: #selector(datePickerValueChanged), for: UIControlEvents.valueChanged)
+        fechaNacimientoTxt.inputView = fechaPicker
+        let toolBar = UIToolbar()
+        toolBar.barStyle = UIBarStyle.default
+        toolBar.isTranslucent = true
+        toolBar.tintColor = UIColor(red: 76/255, green: 217/255, blue: 100/255, alpha: 1)
+        toolBar.sizeToFit()
+        
+        let doneButton = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.plain, target: self, action: #selector(donePicker))
+        let spaceButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace, target: nil, action: nil)
+        let cancelButton = UIBarButtonItem(title: "Cancel", style: UIBarButtonItemStyle.plain, target: self, action: #selector(cancelPicker))
+        
+        toolBar.setItems([cancelButton, spaceButton, doneButton], animated: false)
+        toolBar.isUserInteractionEnabled = true
+        fechaNacimientoTxt.inputAccessoryView = toolBar
+        
         
         if esCompleto{
             titleLbl.text = "DATOS DE REGISTRO"
@@ -44,7 +60,7 @@ class ViewControllerRegistro: UIViewController, UITextFieldDelegate {
             nextBtn.addTarget(self, action: #selector(nextActionComplete(sender:)), for: .touchUpInside)
         }else{
             titleLbl.text = "REGISTRARME SIN ADQUIRIR CHELA"
-            backBtn.setTitle("CANCELAR, SI QUIERO CHELA", for: .normal)
+            backBtn.setTitle("SI QUIERO CHELA", for: .normal)
              nextBtn.setTitle("REGISTRARME", for: .normal)
             backBtn.addTarget(self, action: #selector(backAction(sender:)), for: .touchUpInside)
             nextBtn.addTarget(self, action: #selector(nextAction(sender:)), for: .touchUpInside)
@@ -52,6 +68,29 @@ class ViewControllerRegistro: UIViewController, UITextFieldDelegate {
         
         // Do any additional setup after loading the view.
     }
+    
+    @objc func datePickerValueChanged(sender:UIDatePicker) {
+        
+        let dateFormatter = DateFormatter()
+        
+        dateFormatter.dateStyle = DateFormatter.Style.medium
+        
+        dateFormatter.timeStyle = DateFormatter.Style.none
+        
+        fechaNacimientoTxt.text = dateFormatter.string(from: sender.date)
+        
+    }
+    
+    @objc func donePicker(){
+        self.view.endEditing(true)
+        
+    }
+    
+    @objc func cancelPicker(){
+        self.view.endEditing(true)
+        
+    }
+    
     @IBAction func startEditingFecha(_ sender: Any) {
         scrollView.setContentOffset(CGPoint(x: 0, y: 100), animated: true)
     }
@@ -104,8 +143,16 @@ class ViewControllerRegistro: UIViewController, UITextFieldDelegate {
     
     @objc
     func nextActionComplete(sender:UIButton){
-        let newViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SBDatosEnvio") as UIViewController
-        self.present(newViewController, animated: true, completion: nil)
+        let botonesListo = validarBotones()
+        if(true){//botonesListo.count == 0){
+            let newViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SBDatosEnvio") as UIViewController
+            self.present(newViewController, animated: true, completion: nil)
+        }else{
+            let alerta = UIAlertController(title: "Error", message: botonesListo.joined(separator: "\n"), preferredStyle: .alert)
+            let accion = UIAlertAction(title: "Ok", style: .cancel, handler: nil)
+            alerta.addAction(accion)
+            self.present(alerta, animated: true, completion: nil)
+        }
     }
     
     @objc
@@ -116,7 +163,7 @@ class ViewControllerRegistro: UIViewController, UITextFieldDelegate {
     @objc
     func nextAction(sender:UIButton){
         let botonesListo = validarBotones()
-        if(botonesListo.count == 0){
+        if(true){//botonesListo.count == 0){
             let newViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SBPrincipal") as UIViewController
             self.present(newViewController, animated: true, completion: nil)
         }else{
@@ -163,16 +210,4 @@ class ViewControllerRegistro: UIViewController, UITextFieldDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

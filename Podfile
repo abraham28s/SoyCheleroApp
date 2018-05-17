@@ -6,9 +6,10 @@ target 'Soy Chelero' do
   use_frameworks!
 
   # Pods for Soy Chelero
-	pod 'BarcodeScanner’
+    pod 'ViewPager-Swift'
+    pod 'BarcodeScanner’
 	pod 'DropDown'
-	pod 'Cosmos'
+    pod 'Cosmos'
 	pod "MIBadgeButton-Swift", :git => 'https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git', :branch => 'master'
 	pod 'SDWebImage', '~> 4.0'
 end

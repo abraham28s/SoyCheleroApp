@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionViewCellCoaster" customModule="Soy_Chelero" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="175" height="175"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="175" height="175"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OQJ-8l-gSv">
+                        <rect key="frame" x="0.0" y="0.0" width="175" height="175"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="OQJ-8l-gSv" secondAttribute="height" multiplier="1:1" id="dOz-VT-6JG"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.27837252620000003" green="0.27830278870000003" blue="0.28655359149999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="OQJ-8l-gSv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="I0E-F1-860"/>
+                <constraint firstAttribute="bottom" secondItem="OQJ-8l-gSv" secondAttribute="bottom" id="KHL-B9-0Fg"/>
+                <constraint firstAttribute="trailing" secondItem="OQJ-8l-gSv" secondAttribute="trailing" id="gZq-xv-14H"/>
+                <constraint firstItem="OQJ-8l-gSv" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ozS-0m-6ka"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="175" height="175"/>
+            <connections>
+                <outlet property="imagenCoaster" destination="OQJ-8l-gSv" id="Pbd-bb-6wt"/>
+            </connections>
+            <point key="canvasLocation" x="96.5" y="131.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
